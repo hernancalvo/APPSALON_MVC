@@ -1,7 +1,7 @@
 src/
 vendor/
 node_modules/
-._appsalon_mvc.sql
+appsalon_mvc.sql
 gulpfile.js
 package.json
 package-lock.json

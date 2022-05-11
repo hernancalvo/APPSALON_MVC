@@ -35,7 +35,7 @@ $router->get("/cita", [CitaController::class, "index"]);
 $router->get("/admin", [AdminController::class, "index"]);
 
 // API de Citas
-$router->get("/api/servicios", [APIController::class, "index"]);
+$router->get("/https://infinite-lowlands-15705.herokuapp.com/cita", [APIController::class, "index"]);
 $router->post("/api/citas", [APIController::class, "guardar"]);
 $router->post("/api/eliminar", [APIController::class, "eliminar"]);
 
