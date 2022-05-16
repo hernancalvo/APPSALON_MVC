@@ -30,7 +30,7 @@ $router->post("/crear-cuenta", [LoginController::class, "crear"]);
 $router->get("/confirmar-cuenta", [LoginController::class, "confirmar"]);
 $router->get("/mensaje", [LoginController::class, "mensaje"]);
 
-// ÁREA PRIVADA
+// Área Privada
 $router->get("/cita", [CitaController::class, "index"]);
 $router->get("/admin", [AdminController::class, "index"]);
 
